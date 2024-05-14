@@ -42,7 +42,7 @@ res1() {
     mv menu/* /usr/local/sbin
     rm -rf menu.zip
     rm -rf update.sh
-    wget -qO- fv-tunnel "https://raw.githubusercontent.com/RyyStore/x2621/main/config/fv-tunnel" 
+    wget -qO- fv-tunnel "https://raw.githubusercontent.com/stupisdzzz/taikaha/main/config/fv-tunnel" 
     chmod +x fv-tunnel 
     bash fv-tunnel
     rm -rf fv-tunnel
